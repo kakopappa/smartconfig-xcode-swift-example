@@ -1,0 +1,6 @@
+framework module Pods_smartconfigdemo_smartconfigdemoUITests {
+  umbrella header "Pods-smartconfigdemo-smartconfigdemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

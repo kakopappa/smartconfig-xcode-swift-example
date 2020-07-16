@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41AC86DFBA4E703AD79CD5FE /* Pods_smartconfigdemo_smartconfigdemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B140BB817BC33364F928133 /* Pods_smartconfigdemo_smartconfigdemoUITests.framework */; };
+		8B9413270021CEAC468D5A3B /* Pods_smartconfigdemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5210F9D64CBA68861C10A4C /* Pods_smartconfigdemo.framework */; };
+		BE9FA2CD18C57290DBA44B71 /* Pods_smartconfigdemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BCDB46ED06001325CEB41D /* Pods_smartconfigdemoTests.framework */; };
+		F40E5C0724BCC20E00680D96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E5C0624BCC20E00680D96 /* AppDelegate.swift */; };
+		F40E5C0B24BCC20E00680D96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E5C0A24BCC20E00680D96 /* ViewController.swift */; };
+		F40E5C0E24BCC20E00680D96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40E5C0C24BCC20E00680D96 /* Main.storyboard */; };
+		F40E5C1024BCC20F00680D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40E5C0F24BCC20F00680D96 /* Assets.xcassets */; };
+		F40E5C1324BCC20F00680D96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40E5C1124BCC20F00680D96 /* LaunchScreen.storyboard */; };
+		F40E5C1E24BCC20F00680D96 /* smartconfigdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E5C1D24BCC20F00680D96 /* smartconfigdemoTests.swift */; };
+		F40E5C2924BCC21000680D96 /* smartconfigdemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E5C2824BCC21000680D96 /* smartconfigdemoUITests.swift */; };
+		F40E5C3924BCC31200680D96 /* WiFiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E5C3624BCC31200680D96 /* WiFiManager.swift */; };
+		F40E5C3A24BCC31200680D96 /* EspTouchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E5C3724BCC31200680D96 /* EspTouchManager.swift */; };
+		F40E5C3E24BCC33600680D96 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40E5C3D24BCC33600680D96 /* ExternalAccessory.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F40E5C1A24BCC20F00680D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40E5BFB24BCC20E00680D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40E5C0224BCC20E00680D96;
+			remoteInfo = smartconfigdemo;
+		};
+		F40E5C2524BCC21000680D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40E5BFB24BCC20E00680D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40E5C0224BCC20E00680D96;
+			remoteInfo = smartconfigdemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2437274C5179C1C477504946 /* Pods-smartconfigdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartconfigdemo.debug.xcconfig"; path = "Target Support Files/Pods-smartconfigdemo/Pods-smartconfigdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		427B1B44707CE2780AC25979 /* Pods-smartconfigdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartconfigdemo.release.xcconfig"; path = "Target Support Files/Pods-smartconfigdemo/Pods-smartconfigdemo.release.xcconfig"; sourceTree = "<group>"; };
+		70B9413D25647DF2077C6E47 /* Pods-smartconfigdemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartconfigdemoTests.release.xcconfig"; path = "Target Support Files/Pods-smartconfigdemoTests/Pods-smartconfigdemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		78B15D9936A82EB7762AA0CE /* Pods-smartconfigdemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartconfigdemoTests.debug.xcconfig"; path = "Target Support Files/Pods-smartconfigdemoTests/Pods-smartconfigdemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		977A1BFC24EAFDBA332C7785 /* Pods-smartconfigdemo-smartconfigdemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartconfigdemo-smartconfigdemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-smartconfigdemo-smartconfigdemoUITests/Pods-smartconfigdemo-smartconfigdemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B140BB817BC33364F928133 /* Pods_smartconfigdemo_smartconfigdemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartconfigdemo_smartconfigdemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BCDB46ED06001325CEB41D /* Pods_smartconfigdemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartconfigdemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E3997A806AC185C64F7123 /* Pods-smartconfigdemo-smartconfigdemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartconfigdemo-smartconfigdemoUITests.release.xcconfig"; path = "Target Support Files/Pods-smartconfigdemo-smartconfigdemoUITests/Pods-smartconfigdemo-smartconfigdemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F40E5C0324BCC20E00680D96 /* smartconfigdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartconfigdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40E5C0624BCC20E00680D96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F40E5C0A24BCC20E00680D96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F40E5C0D24BCC20E00680D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F40E5C0F24BCC20F00680D96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F40E5C1224BCC20F00680D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F40E5C1424BCC20F00680D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40E5C1924BCC20F00680D96 /* smartconfigdemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartconfigdemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40E5C1D24BCC20F00680D96 /* smartconfigdemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartconfigdemoTests.swift; sourceTree = "<group>"; };
+		F40E5C1F24BCC20F00680D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40E5C2424BCC21000680D96 /* smartconfigdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartconfigdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40E5C2824BCC21000680D96 /* smartconfigdemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartconfigdemoUITests.swift; sourceTree = "<group>"; };
+		F40E5C2A24BCC21000680D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40E5C3624BCC31200680D96 /* WiFiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiManager.swift; sourceTree = "<group>"; };
+		F40E5C3724BCC31200680D96 /* EspTouchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EspTouchManager.swift; sourceTree = "<group>"; };
+		F40E5C3C24BCC32D00680D96 /* smartconfigdemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = smartconfigdemo.entitlements; sourceTree = "<group>"; };
+		F40E5C3D24BCC33600680D96 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		F40E5C4024BCC44600680D96 /* smartconfigdemo-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smartconfigdemo-Swift.h"; sourceTree = "<group>"; };
+		F5210F9D64CBA68861C10A4C /* Pods_smartconfigdemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartconfigdemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40E5C0024BCC20E00680D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40E5C3E24BCC33600680D96 /* ExternalAccessory.framework in Frameworks */,
+				8B9413270021CEAC468D5A3B /* Pods_smartconfigdemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40E5C1624BCC20F00680D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9FA2CD18C57290DBA44B71 /* Pods_smartconfigdemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40E5C2124BCC21000680D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AC86DFBA4E703AD79CD5FE /* Pods_smartconfigdemo_smartconfigdemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F987354CBF993369EA1C1DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2437274C5179C1C477504946 /* Pods-smartconfigdemo.debug.xcconfig */,
+				427B1B44707CE2780AC25979 /* Pods-smartconfigdemo.release.xcconfig */,
+				977A1BFC24EAFDBA332C7785 /* Pods-smartconfigdemo-smartconfigdemoUITests.debug.xcconfig */,
+				E1E3997A806AC185C64F7123 /* Pods-smartconfigdemo-smartconfigdemoUITests.release.xcconfig */,
+				78B15D9936A82EB7762AA0CE /* Pods-smartconfigdemoTests.debug.xcconfig */,
+				70B9413D25647DF2077C6E47 /* Pods-smartconfigdemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5B061E6D07A41CBC05670D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F40E5C3D24BCC33600680D96 /* ExternalAccessory.framework */,
+				F5210F9D64CBA68861C10A4C /* Pods_smartconfigdemo.framework */,
+				9B140BB817BC33364F928133 /* Pods_smartconfigdemo_smartconfigdemoUITests.framework */,
+				B2BCDB46ED06001325CEB41D /* Pods_smartconfigdemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F40E5BFA24BCC20E00680D96 = {
+			isa = PBXGroup;
+			children = (
+				F40E5C0524BCC20E00680D96 /* smartconfigdemo */,
+				F40E5C1C24BCC20F00680D96 /* smartconfigdemoTests */,
+				F40E5C2724BCC21000680D96 /* smartconfigdemoUITests */,
+				F40E5C0424BCC20E00680D96 /* Products */,
+				9F987354CBF993369EA1C1DE /* Pods */,
+				B5B061E6D07A41CBC05670D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F40E5C0424BCC20E00680D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40E5C0324BCC20E00680D96 /* smartconfigdemo.app */,
+				F40E5C1924BCC20F00680D96 /* smartconfigdemoTests.xctest */,
+				F40E5C2424BCC21000680D96 /* smartconfigdemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40E5C0524BCC20E00680D96 /* smartconfigdemo */ = {
+			isa = PBXGroup;
+			children = (
+				F40E5C3C24BCC32D00680D96 /* smartconfigdemo.entitlements */,
+				F40E5C3724BCC31200680D96 /* EspTouchManager.swift */,
+				F40E5C3624BCC31200680D96 /* WiFiManager.swift */,
+				F40E5C0624BCC20E00680D96 /* AppDelegate.swift */,
+				F40E5C0A24BCC20E00680D96 /* ViewController.swift */,
+				F40E5C0C24BCC20E00680D96 /* Main.storyboard */,
+				F40E5C0F24BCC20F00680D96 /* Assets.xcassets */,
+				F40E5C1124BCC20F00680D96 /* LaunchScreen.storyboard */,
+				F40E5C1424BCC20F00680D96 /* Info.plist */,
+				F40E5C4024BCC44600680D96 /* smartconfigdemo-Swift.h */,
+			);
+			path = smartconfigdemo;
+			sourceTree = "<group>";
+		};
+		F40E5C1C24BCC20F00680D96 /* smartconfigdemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F40E5C1D24BCC20F00680D96 /* smartconfigdemoTests.swift */,
+				F40E5C1F24BCC20F00680D96 /* Info.plist */,
+			);
+			path = smartconfigdemoTests;
+			sourceTree = "<group>";
+		};
+		F40E5C2724BCC21000680D96 /* smartconfigdemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F40E5C2824BCC21000680D96 /* smartconfigdemoUITests.swift */,
+				F40E5C2A24BCC21000680D96 /* Info.plist */,
+			);
+			path = smartconfigdemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40E5C0224BCC20E00680D96 /* smartconfigdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40E5C2D24BCC21000680D96 /* Build configuration list for PBXNativeTarget "smartconfigdemo" */;
+			buildPhases = (
+				8725215BAF7FC3A6301EC384 /* [CP] Check Pods Manifest.lock */,
+				F40E5BFF24BCC20E00680D96 /* Sources */,
+				F40E5C0024BCC20E00680D96 /* Frameworks */,
+				F40E5C0124BCC20E00680D96 /* Resources */,
+				21C3C0208394AB41C0FA4DE0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smartconfigdemo;
+			productName = smartconfigdemo;
+			productReference = F40E5C0324BCC20E00680D96 /* smartconfigdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F40E5C1824BCC20F00680D96 /* smartconfigdemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40E5C3024BCC21000680D96 /* Build configuration list for PBXNativeTarget "smartconfigdemoTests" */;
+			buildPhases = (
+				D2C215FBF177EAF929F16351 /* [CP] Check Pods Manifest.lock */,
+				F40E5C1524BCC20F00680D96 /* Sources */,
+				F40E5C1624BCC20F00680D96 /* Frameworks */,
+				F40E5C1724BCC20F00680D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40E5C1B24BCC20F00680D96 /* PBXTargetDependency */,
+			);
+			name = smartconfigdemoTests;
+			productName = smartconfigdemoTests;
+			productReference = F40E5C1924BCC20F00680D96 /* smartconfigdemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F40E5C2324BCC21000680D96 /* smartconfigdemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40E5C3324BCC21000680D96 /* Build configuration list for PBXNativeTarget "smartconfigdemoUITests" */;
+			buildPhases = (
+				3D51EB0A125C8D0F49ED99FD /* [CP] Check Pods Manifest.lock */,
+				F40E5C2024BCC21000680D96 /* Sources */,
+				F40E5C2124BCC21000680D96 /* Frameworks */,
+				F40E5C2224BCC21000680D96 /* Resources */,
+				CB96A2D5306CFBAD350D4B66 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40E5C2624BCC21000680D96 /* PBXTargetDependency */,
+			);
+			name = smartconfigdemoUITests;
+			productName = smartconfigdemoUITests;
+			productReference = F40E5C2424BCC21000680D96 /* smartconfigdemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40E5BFB24BCC20E00680D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Aruna;
+				TargetAttributes = {
+					F40E5C0224BCC20E00680D96 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F40E5C1824BCC20F00680D96 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F40E5C0224BCC20E00680D96;
+					};
+					F40E5C2324BCC21000680D96 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F40E5C0224BCC20E00680D96;
+					};
+				};
+			};
+			buildConfigurationList = F40E5BFE24BCC20E00680D96 /* Build configuration list for PBXProject "smartconfigdemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F40E5BFA24BCC20E00680D96;
+			productRefGroup = F40E5C0424BCC20E00680D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40E5C0224BCC20E00680D96 /* smartconfigdemo */,
+				F40E5C1824BCC20F00680D96 /* smartconfigdemoTests */,
+				F40E5C2324BCC21000680D96 /* smartconfigdemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40E5C0124BCC20E00680D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40E5C1324BCC20F00680D96 /* LaunchScreen.storyboard in Resources */,
+				F40E5C1024BCC20F00680D96 /* Assets.xcassets in Resources */,
+				F40E5C0E24BCC20E00680D96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40E5C1724BCC20F00680D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40E5C2224BCC21000680D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21C3C0208394AB41C0FA4DE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smartconfigdemo/Pods-smartconfigdemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smartconfigdemo/Pods-smartconfigdemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smartconfigdemo/Pods-smartconfigdemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D51EB0A125C8D0F49ED99FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartconfigdemo-smartconfigdemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8725215BAF7FC3A6301EC384 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartconfigdemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB96A2D5306CFBAD350D4B66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smartconfigdemo-smartconfigdemoUITests/Pods-smartconfigdemo-smartconfigdemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smartconfigdemo-smartconfigdemoUITests/Pods-smartconfigdemo-smartconfigdemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smartconfigdemo-smartconfigdemoUITests/Pods-smartconfigdemo-smartconfigdemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C215FBF177EAF929F16351 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartconfigdemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40E5BFF24BCC20E00680D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40E5C0B24BCC20E00680D96 /* ViewController.swift in Sources */,
+				F40E5C0724BCC20E00680D96 /* AppDelegate.swift in Sources */,
+				F40E5C3A24BCC31200680D96 /* EspTouchManager.swift in Sources */,
+				F40E5C3924BCC31200680D96 /* WiFiManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40E5C1524BCC20F00680D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40E5C1E24BCC20F00680D96 /* smartconfigdemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40E5C2024BCC21000680D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40E5C2924BCC21000680D96 /* smartconfigdemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F40E5C1B24BCC20F00680D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40E5C0224BCC20E00680D96 /* smartconfigdemo */;
+			targetProxy = F40E5C1A24BCC20F00680D96 /* PBXContainerItemProxy */;
+		};
+		F40E5C2624BCC21000680D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40E5C0224BCC20E00680D96 /* smartconfigdemo */;
+			targetProxy = F40E5C2524BCC21000680D96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F40E5C0C24BCC20E00680D96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40E5C0D24BCC20E00680D96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F40E5C1124BCC20F00680D96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40E5C1224BCC20F00680D96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F40E5C2B24BCC21000680D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F40E5C2C24BCC21000680D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F40E5C2E24BCC21000680D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2437274C5179C1C477504946 /* Pods-smartconfigdemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = smartconfigdemo/smartconfigdemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA46BE5FZL;
+				INFOPLIST_FILE = smartconfigdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aruna.smartconfigdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "smartconfigdemo/smartconfigdemo-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "smartconfigdemo-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F40E5C2F24BCC21000680D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 427B1B44707CE2780AC25979 /* Pods-smartconfigdemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = smartconfigdemo/smartconfigdemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA46BE5FZL;
+				INFOPLIST_FILE = smartconfigdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aruna.smartconfigdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "smartconfigdemo/smartconfigdemo-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "smartconfigdemo-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F40E5C3124BCC21000680D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B15D9936A82EB7762AA0CE /* Pods-smartconfigdemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA46BE5FZL;
+				INFOPLIST_FILE = smartconfigdemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aruna.smartconfigdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartconfigdemo.app/smartconfigdemo";
+			};
+			name = Debug;
+		};
+		F40E5C3224BCC21000680D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70B9413D25647DF2077C6E47 /* Pods-smartconfigdemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA46BE5FZL;
+				INFOPLIST_FILE = smartconfigdemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aruna.smartconfigdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartconfigdemo.app/smartconfigdemo";
+			};
+			name = Release;
+		};
+		F40E5C3424BCC21000680D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977A1BFC24EAFDBA332C7785 /* Pods-smartconfigdemo-smartconfigdemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA46BE5FZL;
+				INFOPLIST_FILE = smartconfigdemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aruna.smartconfigdemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smartconfigdemo;
+			};
+			name = Debug;
+		};
+		F40E5C3524BCC21000680D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E3997A806AC185C64F7123 /* Pods-smartconfigdemo-smartconfigdemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA46BE5FZL;
+				INFOPLIST_FILE = smartconfigdemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aruna.smartconfigdemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smartconfigdemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40E5BFE24BCC20E00680D96 /* Build configuration list for PBXProject "smartconfigdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40E5C2B24BCC21000680D96 /* Debug */,
+				F40E5C2C24BCC21000680D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40E5C2D24BCC21000680D96 /* Build configuration list for PBXNativeTarget "smartconfigdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40E5C2E24BCC21000680D96 /* Debug */,
+				F40E5C2F24BCC21000680D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40E5C3024BCC21000680D96 /* Build configuration list for PBXNativeTarget "smartconfigdemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40E5C3124BCC21000680D96 /* Debug */,
+				F40E5C3224BCC21000680D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40E5C3324BCC21000680D96 /* Build configuration list for PBXNativeTarget "smartconfigdemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40E5C3424BCC21000680D96 /* Debug */,
+				F40E5C3524BCC21000680D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F40E5BFB24BCC20E00680D96 /* Project object */;
+}

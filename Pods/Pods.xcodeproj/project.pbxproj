@@ -1,0 +1,1094 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0386C3ACA9007CA82E7B4AF668E168C6 /* ESP_WifiUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91746F8001BC03C3E8E1DECD196EA1 /* ESP_WifiUtil.m */; };
+		04751FE78EEB59E47DC3BEC013728CC7 /* Pods-smartconfigdemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEEDA62159B0B8748A9DB3A26894DB0A /* Pods-smartconfigdemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1473D8DF876DEA88D5D02A5199C15B75 /* Pods-smartconfigdemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3D232D68E4B5E3F9D40427D8440525 /* Pods-smartconfigdemoTests-dummy.m */; };
+		16E3E2FB073F709244A59F61952B6C9C /* ESPUDPSocketServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 698FBB9521289BC48EF47BFB4FBB0144 /* ESPUDPSocketServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19BC3814166BD8CD6230097BBD1E679D /* ESP_ByteUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 717029D9287705F1FD5F04C1542A5740 /* ESP_ByteUtil.m */; };
+		2623062DD718AE5F6CF3D2DF3CEA1778 /* ESPUDPSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 534EC2B47056C0375F9640A235241BD2 /* ESPUDPSocketClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2790E95F7B80854081B3D0080076A053 /* ESPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A8DB8A485A792F7EFEFF6781347E3 /* ESPTools.m */; };
+		335A1130D303CECF9A436D9DDEF38BE3 /* ESPDatumCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 886AC465C0F6ADF33870045DA8CD7EB0 /* ESPDatumCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35AA8E144009786636FF3556AD42DF86 /* ESP_NetUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 979EC181ADE3CFD3DE1F889260F5F4BA /* ESP_NetUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38DDF5CE7539EDE5A98FD12102F92FAE /* ESPTouchTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA05F8B76A66BD9BA1AF73B2405520E /* ESPTouchTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CC011238780E570FC27D1C8BCF7247C /* ESP_CRC8.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F138801B09E0F99F652835E0B4375D /* ESP_CRC8.m */; };
+		41540F3F5DE8DFE5C8BCE46B09E5E440 /* EspressifTouchSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07533431E05B92321063E775E942B3B2 /* EspressifTouchSDK-dummy.m */; };
+		4B4844AA3B66428A045C069439DFC746 /* EspressifTouchSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 663DEBA35206B3C06EAED797641012E6 /* EspressifTouchSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E512E0B1E460D857BFD99E8176FF6BD /* Pods-smartconfigdemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5493EB465D01735003DF0904AC13BDB7 /* Pods-smartconfigdemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68560403FB2A11B22BA7BB6A8845B7C0 /* ESPTouchGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BB85DCA7FAA6A317632169D196DBC58D /* ESPTouchGenerator.m */; };
+		698EC067A2C2775EE13310AA490CAFEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		6D8220F079D51BB7ACDB655114023CEF /* ESPTouchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 33182416CA1D5664E1A490CBF839CEDA /* ESPTouchResult.m */; };
+		6F27C86A3931EA5BE98341832D55AF39 /* ESPGuideCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F96A3ABE4AAF225B55522469938914 /* ESPGuideCode.m */; };
+		72307C37D97D4A16A9074424CAB668C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		7445D783847E03F78498966CD8C46985 /* ESPTools.h in Headers */ = {isa = PBXBuildFile; fileRef = D2396AD495C233DB0C97208A568CB72D /* ESPTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7463D82A3B2B4336A4276DD4760E5E6C /* ESPAES.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D7DED024854FABD64DE57AF505B242 /* ESPAES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79AF0F725B29044EC0AC31BE197584AE /* ESPTouchGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D6AFE8E426CFFDC3AAEDBB51BE9A7D40 /* ESPTouchGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D914A14AF4F0FF7A850B27E12698E44 /* Pods-smartconfigdemo-smartconfigdemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C73F7868B84C17917654BDCB40481B /* Pods-smartconfigdemo-smartconfigdemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EF86F661804B48DC6389A826846F34C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		80F2972A61C63E79DA2CDDCE860EE974 /* ESPTouchTaskParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = B812CAAAEB3966DF7FE2B18E5128C189 /* ESPTouchTaskParameter.m */; };
+		837B055D58F94BE0C6907EE8C7398BF3 /* ESP_ByteUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 858AF312D244DC6B4CD19C0A2B65E71F /* ESP_ByteUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84CCCB3D6BBF724C9093A37524D68B92 /* ESPTouchDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D65440B4D32B58C3E53E58D3FABAC3 /* ESPTouchDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BC7FD25392EC06659AB240D8A63E830 /* ESPGuideCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 732E216AC0DE52E28E4776D1C6A9A877 /* ESPGuideCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C54D0D8738CE646CB9EF3D891DAF117 /* ESP_CRC8.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA5CE4FFDBFD20337E0F9BACBA9709A /* ESP_CRC8.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92F5F8D70E6DAA669A9368F8A601B65A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		9A3957CD6C22ABFB8F963235F3C1F987 /* ESPDatumCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E28CB8B5E7F3D6E9E23CDF859124160 /* ESPDatumCode.m */; };
+		9B07E1CDC276A86BE9715F0B4106C34D /* ESPDataCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C197E638983FE1B911FC771A7E1C /* ESPDataCode.m */; };
+		9C2148EE8011EB9B1C25DF53220894DB /* Pods-smartconfigdemo-smartconfigdemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F569B212163F9BCB5FF98952421A1DAD /* Pods-smartconfigdemo-smartconfigdemoUITests-dummy.m */; };
+		B4A0ABD9690A2705AF836C6BAEB394F2 /* ESPTouchTaskParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 25DEB0D1FC4399E6DE0EBD2F899355DB /* ESPTouchTaskParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD654098548A76A6D5A016D8CB3944C4 /* ESPTouchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9279D433FCA7856D9DC68FAD8FA0BB /* ESPTouchTask.m */; };
+		BE12EFEE078E0CC189BA45F0ADF8C722 /* ESP_NetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 118DB11BE05A9BB23386EADAD32CBE46 /* ESP_NetUtil.m */; };
+		CA64EB045141F4042F4E6E714CD9E5A0 /* ESPUDPSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 068329D684D9D1A887FF5E7FC193A40A /* ESPUDPSocketClient.m */; };
+		E23B0CA02E35FEF61D89E800622EDCEE /* ESPUDPSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8415D70C257D935C39B71B82F5BC26 /* ESPUDPSocketServer.m */; };
+		E55576125000B2817B0438ECD2BBDAAE /* ESPAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA0FCE9C5DACBA7404BC1BD6805D19 /* ESPAES.m */; };
+		E795C202DD71625CF6FFED7C946A6AAA /* ESPVersionMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = B1734081EDADDEC7ADAE49A1D6CD0B6C /* ESPVersionMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1B58A64DE714737D5E6775BF60F2BD2 /* Pods-smartconfigdemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6C2334DED16B3056961EA2DC4DB218 /* Pods-smartconfigdemo-dummy.m */; };
+		F29CC4C72EA9E6D596D7BBCE0AF32504 /* ESP_WifiUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBDB1C602851F4EF286402775EA9838 /* ESP_WifiUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F577560C2120E371926A703653ABC538 /* ESPTouchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70BD4923D70BB11EF4B74933792BD060 /* ESPTouchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F85020FB8105FA0A750E5B773A8AB511 /* ESPDataCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A782F2EBF8AC166B03D5067A3956F11 /* ESPDataCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBF4E3F46464F5BC2EAA72568038F6AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B4D16A2D795DDBD49137700151F3267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B218F3D195917E44808497F127354A59;
+			remoteInfo = "Pods-smartconfigdemo";
+		};
+		1EFFC9CDF449067DDF6078762EFACBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31E67D3229E94988F145BC88B74B7DB8;
+			remoteInfo = EspressifTouchSDK;
+		};
+		830CA035B5C67666F97F843C1DFBC1FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31E67D3229E94988F145BC88B74B7DB8;
+			remoteInfo = EspressifTouchSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005B9F675A5207C27B33BAF54C59382C /* Pods-smartconfigdemo-smartconfigdemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smartconfigdemo-smartconfigdemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		068329D684D9D1A887FF5E7FC193A40A /* ESPUDPSocketClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESPUDPSocketClient.m; path = EspTouch/udp/ESPUDPSocketClient.m; sourceTree = "<group>"; };
+		07533431E05B92321063E775E942B3B2 /* EspressifTouchSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EspressifTouchSDK-dummy.m"; sourceTree = "<group>"; };
+		07AE930DB9DAAA74E0D0A894669A62AC /* Pods-smartconfigdemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smartconfigdemo-Info.plist"; sourceTree = "<group>"; };
+		0CBDB1C602851F4EF286402775EA9838 /* ESP_WifiUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESP_WifiUtil.h; path = EspTouch/ESPUtils/ESP_WifiUtil.h; sourceTree = "<group>"; };
+		0EA05F8B76A66BD9BA1AF73B2405520E /* ESPTouchTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPTouchTask.h; path = EspTouch/ESPTouchTask.h; sourceTree = "<group>"; };
+		0EA5CE4FFDBFD20337E0F9BACBA9709A /* ESP_CRC8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESP_CRC8.h; path = EspTouch/ESPUtils/ESP_CRC8.h; sourceTree = "<group>"; };
+		10DCACA3EE047599ECC520D102B5057B /* Pods-smartconfigdemo-smartconfigdemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-smartconfigdemo-smartconfigdemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		114576DB017320DDDBFB3C124BC76D4A /* Pods-smartconfigdemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-smartconfigdemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		118DB11BE05A9BB23386EADAD32CBE46 /* ESP_NetUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESP_NetUtil.m; path = EspTouch/ESPUtils/ESP_NetUtil.m; sourceTree = "<group>"; };
+		121C8C74250F3DC3BB34F8AD3053AE86 /* Pods_smartconfigdemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_smartconfigdemo.framework; path = "Pods-smartconfigdemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		164E578ACF4F43241DC2B54066D45A27 /* Pods_smartconfigdemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_smartconfigdemoTests.framework; path = "Pods-smartconfigdemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		171684CC479D4A1E4B937E0A5473D285 /* Pods-smartconfigdemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-smartconfigdemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B98542A1CBC85C81D5C7288798D20F9 /* Pods-smartconfigdemo-smartconfigdemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smartconfigdemo-smartconfigdemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		22A312150BDD3F1F1900D42BD806CC7B /* Pods-smartconfigdemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smartconfigdemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		25DEB0D1FC4399E6DE0EBD2F899355DB /* ESPTouchTaskParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPTouchTaskParameter.h; path = EspTouch/task/ESPTouchTaskParameter.h; sourceTree = "<group>"; };
+		28C73F7868B84C17917654BDCB40481B /* Pods-smartconfigdemo-smartconfigdemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-smartconfigdemo-smartconfigdemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		33182416CA1D5664E1A490CBF839CEDA /* ESPTouchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESPTouchResult.m; path = EspTouch/task/ESPTouchResult.m; sourceTree = "<group>"; };
+		3EDD6ABACFA9DF548A0D2D7925975157 /* Pods_smartconfigdemo_smartconfigdemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_smartconfigdemo_smartconfigdemoUITests.framework; path = "Pods-smartconfigdemo-smartconfigdemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		43F96A3ABE4AAF225B55522469938914 /* ESPGuideCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESPGuideCode.m; path = EspTouch/protocol/ESPGuideCode.m; sourceTree = "<group>"; };
+		5002660A022C176F0A677BB0612EAA3B /* EspressifTouchSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EspressifTouchSDK.modulemap; sourceTree = "<group>"; };
+		534EC2B47056C0375F9640A235241BD2 /* ESPUDPSocketClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPUDPSocketClient.h; path = EspTouch/udp/ESPUDPSocketClient.h; sourceTree = "<group>"; };
+		5493EB465D01735003DF0904AC13BDB7 /* Pods-smartconfigdemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-smartconfigdemoTests-umbrella.h"; sourceTree = "<group>"; };
+		58D10DB29C8D81371A22B9511797D5A8 /* Pods-smartconfigdemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-smartconfigdemo-frameworks.sh"; sourceTree = "<group>"; };
+		5A782F2EBF8AC166B03D5067A3956F11 /* ESPDataCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPDataCode.h; path = EspTouch/protocol/ESPDataCode.h; sourceTree = "<group>"; };
+		5A9279D433FCA7856D9DC68FAD8FA0BB /* ESPTouchTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESPTouchTask.m; path = EspTouch/task/ESPTouchTask.m; sourceTree = "<group>"; };
+		663DEBA35206B3C06EAED797641012E6 /* EspressifTouchSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EspressifTouchSDK-umbrella.h"; sourceTree = "<group>"; };
+		68D65440B4D32B58C3E53E58D3FABAC3 /* ESPTouchDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPTouchDelegate.h; path = EspTouch/ESPTouchDelegate.h; sourceTree = "<group>"; };
+		698FBB9521289BC48EF47BFB4FBB0144 /* ESPUDPSocketServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPUDPSocketServer.h; path = EspTouch/udp/ESPUDPSocketServer.h; sourceTree = "<group>"; };
+		702EB93ABDC58E663278FE54CC2214A0 /* Pods-smartconfigdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smartconfigdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		70BD4923D70BB11EF4B74933792BD060 /* ESPTouchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPTouchResult.h; path = EspTouch/ESPTouchResult.h; sourceTree = "<group>"; };
+		717029D9287705F1FD5F04C1542A5740 /* ESP_ByteUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESP_ByteUtil.m; path = EspTouch/ESPUtils/ESP_ByteUtil.m; sourceTree = "<group>"; };
+		732E216AC0DE52E28E4776D1C6A9A877 /* ESPGuideCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPGuideCode.h; path = EspTouch/protocol/ESPGuideCode.h; sourceTree = "<group>"; };
+		78CAF2DB085D5C0C5B054C5E2DCBFC44 /* Pods-smartconfigdemo-smartconfigdemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-smartconfigdemo-smartconfigdemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		7A6A8DB8A485A792F7EFEFF6781347E3 /* ESPTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESPTools.m; path = EspTouch/ESPUtils/ESPTools.m; sourceTree = "<group>"; };
+		84E6C197E638983FE1B911FC771A7E1C /* ESPDataCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESPDataCode.m; path = EspTouch/protocol/ESPDataCode.m; sourceTree = "<group>"; };
+		858AF312D244DC6B4CD19C0A2B65E71F /* ESP_ByteUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESP_ByteUtil.h; path = EspTouch/ESPUtils/ESP_ByteUtil.h; sourceTree = "<group>"; };
+		886AC465C0F6ADF33870045DA8CD7EB0 /* ESPDatumCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPDatumCode.h; path = EspTouch/protocol/ESPDatumCode.h; sourceTree = "<group>"; };
+		8C31AF0BCB73B0E904C9F6A6D52CCBB0 /* Pods-smartconfigdemo-smartconfigdemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-smartconfigdemo-smartconfigdemoUITests.modulemap"; sourceTree = "<group>"; };
+		8E28CB8B5E7F3D6E9E23CDF859124160 /* ESPDatumCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESPDatumCode.m; path = EspTouch/protocol/ESPDatumCode.m; sourceTree = "<group>"; };
+		8F91746F8001BC03C3E8E1DECD196EA1 /* ESP_WifiUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESP_WifiUtil.m; path = EspTouch/ESPUtils/ESP_WifiUtil.m; sourceTree = "<group>"; };
+		979EC181ADE3CFD3DE1F889260F5F4BA /* ESP_NetUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESP_NetUtil.h; path = EspTouch/ESPUtils/ESP_NetUtil.h; sourceTree = "<group>"; };
+		988F6BBD42936D704177988A7AB92814 /* EspressifTouchSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EspressifTouchSDK.xcconfig; sourceTree = "<group>"; };
+		9C75CA9235DD016C8CE47C42B1FA0AD8 /* Pods-smartconfigdemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smartconfigdemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EBA0FCE9C5DACBA7404BC1BD6805D19 /* ESPAES.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESPAES.m; path = EspTouch/ESPUtils/ESPAES.m; sourceTree = "<group>"; };
+		AA1A7399F199F0A9BFA49C6F8F5CC44C /* EspressifTouchSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EspressifTouchSDK-Info.plist"; sourceTree = "<group>"; };
+		B1734081EDADDEC7ADAE49A1D6CD0B6C /* ESPVersionMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPVersionMacro.h; path = EspTouch/ESPUtils/ESPVersionMacro.h; sourceTree = "<group>"; };
+		B812CAAAEB3966DF7FE2B18E5128C189 /* ESPTouchTaskParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESPTouchTaskParameter.m; path = EspTouch/task/ESPTouchTaskParameter.m; sourceTree = "<group>"; };
+		BB85DCA7FAA6A317632169D196DBC58D /* ESPTouchGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESPTouchGenerator.m; path = EspTouch/protocol/ESPTouchGenerator.m; sourceTree = "<group>"; };
+		BEA9F4BFBBB148C90BC29A9AAFC7A7F1 /* Pods-smartconfigdemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-smartconfigdemoTests.modulemap"; sourceTree = "<group>"; };
+		BEEDA62159B0B8748A9DB3A26894DB0A /* Pods-smartconfigdemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-smartconfigdemo-umbrella.h"; sourceTree = "<group>"; };
+		C2D7DED024854FABD64DE57AF505B242 /* ESPAES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPAES.h; path = EspTouch/ESPUtils/ESPAES.h; sourceTree = "<group>"; };
+		CE1565A57E2D21C6CEA22DD69B8642D1 /* Pods-smartconfigdemo-smartconfigdemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smartconfigdemo-smartconfigdemoUITests-Info.plist"; sourceTree = "<group>"; };
+		CECD6B2E256F5BD659E43D472FC2DC25 /* Pods-smartconfigdemo-smartconfigdemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smartconfigdemo-smartconfigdemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF3D232D68E4B5E3F9D40427D8440525 /* Pods-smartconfigdemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-smartconfigdemoTests-dummy.m"; sourceTree = "<group>"; };
+		D0B62F17ABDC2D2C9189DC6B57DAFF7E /* EspressifTouchSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EspressifTouchSDK.framework; path = EspressifTouchSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F138801B09E0F99F652835E0B4375D /* ESP_CRC8.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESP_CRC8.m; path = EspTouch/ESPUtils/ESP_CRC8.m; sourceTree = "<group>"; };
+		D2396AD495C233DB0C97208A568CB72D /* ESPTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPTools.h; path = EspTouch/ESPUtils/ESPTools.h; sourceTree = "<group>"; };
+		D6AFE8E426CFFDC3AAEDBB51BE9A7D40 /* ESPTouchGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESPTouchGenerator.h; path = EspTouch/protocol/ESPTouchGenerator.h; sourceTree = "<group>"; };
+		D730F63D7AF884AEE2ED6FABDE568955 /* Pods-smartconfigdemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smartconfigdemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8C5FCCA99F316C838CA93C36BCBF49D /* Pods-smartconfigdemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smartconfigdemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB6C2334DED16B3056961EA2DC4DB218 /* Pods-smartconfigdemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-smartconfigdemo-dummy.m"; sourceTree = "<group>"; };
+		DB70A4A5CE97B9863B372BB0BA44A2EC /* Pods-smartconfigdemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-smartconfigdemo.modulemap"; sourceTree = "<group>"; };
+		ED83DDABEBE1A00AD76138FDE8BF8DCF /* Pods-smartconfigdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smartconfigdemo.release.xcconfig"; sourceTree = "<group>"; };
+		EF693ADC17949E3E24F6A2BB1EF445E4 /* EspressifTouchSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EspressifTouchSDK-prefix.pch"; sourceTree = "<group>"; };
+		F308193608248095C5EEF2B532FB249B /* Pods-smartconfigdemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smartconfigdemoTests-Info.plist"; sourceTree = "<group>"; };
+		F569B212163F9BCB5FF98952421A1DAD /* Pods-smartconfigdemo-smartconfigdemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-smartconfigdemo-smartconfigdemoUITests-dummy.m"; sourceTree = "<group>"; };
+		FD8415D70C257D935C39B71B82F5BC26 /* ESPUDPSocketServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESPUDPSocketServer.m; path = EspTouch/udp/ESPUDPSocketServer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		020845BC4CAF88566FD52582E5F8968E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F5F8D70E6DAA669A9368F8A601B65A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AF9C4C75C62E1051AE10FA9D878078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF86F661804B48DC6389A826846F34C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D176CD7250AA57E9BD47F8BE545263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698EC067A2C2775EE13310AA490CAFEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC76E5F5B9C599025B0449780E909A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72307C37D97D4A16A9074424CAB668C4 /* Foundation.framework in Frameworks */,
+				FBF4E3F46464F5BC2EAA72568038F6AE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056EA7ADC140313B501B35A3C84181FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B62F17ABDC2D2C9189DC6B57DAFF7E /* EspressifTouchSDK.framework */,
+				121C8C74250F3DC3BB34F8AD3053AE86 /* Pods_smartconfigdemo.framework */,
+				3EDD6ABACFA9DF548A0D2D7925975157 /* Pods_smartconfigdemo_smartconfigdemoUITests.framework */,
+				164E578ACF4F43241DC2B54066D45A27 /* Pods_smartconfigdemoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		088C075E17750EC207EEC76C894ECDE5 /* EspressifTouchSDK */ = {
+			isa = PBXGroup;
+			children = (
+				858AF312D244DC6B4CD19C0A2B65E71F /* ESP_ByteUtil.h */,
+				717029D9287705F1FD5F04C1542A5740 /* ESP_ByteUtil.m */,
+				0EA5CE4FFDBFD20337E0F9BACBA9709A /* ESP_CRC8.h */,
+				D0F138801B09E0F99F652835E0B4375D /* ESP_CRC8.m */,
+				979EC181ADE3CFD3DE1F889260F5F4BA /* ESP_NetUtil.h */,
+				118DB11BE05A9BB23386EADAD32CBE46 /* ESP_NetUtil.m */,
+				0CBDB1C602851F4EF286402775EA9838 /* ESP_WifiUtil.h */,
+				8F91746F8001BC03C3E8E1DECD196EA1 /* ESP_WifiUtil.m */,
+				C2D7DED024854FABD64DE57AF505B242 /* ESPAES.h */,
+				9EBA0FCE9C5DACBA7404BC1BD6805D19 /* ESPAES.m */,
+				5A782F2EBF8AC166B03D5067A3956F11 /* ESPDataCode.h */,
+				84E6C197E638983FE1B911FC771A7E1C /* ESPDataCode.m */,
+				886AC465C0F6ADF33870045DA8CD7EB0 /* ESPDatumCode.h */,
+				8E28CB8B5E7F3D6E9E23CDF859124160 /* ESPDatumCode.m */,
+				732E216AC0DE52E28E4776D1C6A9A877 /* ESPGuideCode.h */,
+				43F96A3ABE4AAF225B55522469938914 /* ESPGuideCode.m */,
+				D2396AD495C233DB0C97208A568CB72D /* ESPTools.h */,
+				7A6A8DB8A485A792F7EFEFF6781347E3 /* ESPTools.m */,
+				68D65440B4D32B58C3E53E58D3FABAC3 /* ESPTouchDelegate.h */,
+				D6AFE8E426CFFDC3AAEDBB51BE9A7D40 /* ESPTouchGenerator.h */,
+				BB85DCA7FAA6A317632169D196DBC58D /* ESPTouchGenerator.m */,
+				70BD4923D70BB11EF4B74933792BD060 /* ESPTouchResult.h */,
+				33182416CA1D5664E1A490CBF839CEDA /* ESPTouchResult.m */,
+				0EA05F8B76A66BD9BA1AF73B2405520E /* ESPTouchTask.h */,
+				5A9279D433FCA7856D9DC68FAD8FA0BB /* ESPTouchTask.m */,
+				25DEB0D1FC4399E6DE0EBD2F899355DB /* ESPTouchTaskParameter.h */,
+				B812CAAAEB3966DF7FE2B18E5128C189 /* ESPTouchTaskParameter.m */,
+				534EC2B47056C0375F9640A235241BD2 /* ESPUDPSocketClient.h */,
+				068329D684D9D1A887FF5E7FC193A40A /* ESPUDPSocketClient.m */,
+				698FBB9521289BC48EF47BFB4FBB0144 /* ESPUDPSocketServer.h */,
+				FD8415D70C257D935C39B71B82F5BC26 /* ESPUDPSocketServer.m */,
+				B1734081EDADDEC7ADAE49A1D6CD0B6C /* ESPVersionMacro.h */,
+				E5EF9B23824EFBD697CBA417ABD290BC /* Support Files */,
+			);
+			name = EspressifTouchSDK;
+			path = EspressifTouchSDK;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		347D432288F1C9DF9A45E57A521DD0BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				088C075E17750EC207EEC76C894ECDE5 /* EspressifTouchSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5556AEBD8216BC66BE933D159D6C5EFE /* Pods-smartconfigdemo-smartconfigdemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C31AF0BCB73B0E904C9F6A6D52CCBB0 /* Pods-smartconfigdemo-smartconfigdemoUITests.modulemap */,
+				10DCACA3EE047599ECC520D102B5057B /* Pods-smartconfigdemo-smartconfigdemoUITests-acknowledgements.markdown */,
+				005B9F675A5207C27B33BAF54C59382C /* Pods-smartconfigdemo-smartconfigdemoUITests-acknowledgements.plist */,
+				F569B212163F9BCB5FF98952421A1DAD /* Pods-smartconfigdemo-smartconfigdemoUITests-dummy.m */,
+				78CAF2DB085D5C0C5B054C5E2DCBFC44 /* Pods-smartconfigdemo-smartconfigdemoUITests-frameworks.sh */,
+				CE1565A57E2D21C6CEA22DD69B8642D1 /* Pods-smartconfigdemo-smartconfigdemoUITests-Info.plist */,
+				28C73F7868B84C17917654BDCB40481B /* Pods-smartconfigdemo-smartconfigdemoUITests-umbrella.h */,
+				1B98542A1CBC85C81D5C7288798D20F9 /* Pods-smartconfigdemo-smartconfigdemoUITests.debug.xcconfig */,
+				CECD6B2E256F5BD659E43D472FC2DC25 /* Pods-smartconfigdemo-smartconfigdemoUITests.release.xcconfig */,
+			);
+			name = "Pods-smartconfigdemo-smartconfigdemoUITests";
+			path = "Target Support Files/Pods-smartconfigdemo-smartconfigdemoUITests";
+			sourceTree = "<group>";
+		};
+		711BC790F86CAFEDBB3436B92CB6BE2D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1ADAE1CB0EBF7973EE6EC92E8C6FDDC /* Pods-smartconfigdemo */,
+				5556AEBD8216BC66BE933D159D6C5EFE /* Pods-smartconfigdemo-smartconfigdemoUITests */,
+				ADBDA00A8C88D67C75CB9AAA86148B87 /* Pods-smartconfigdemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ADBDA00A8C88D67C75CB9AAA86148B87 /* Pods-smartconfigdemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA9F4BFBBB148C90BC29A9AAFC7A7F1 /* Pods-smartconfigdemoTests.modulemap */,
+				114576DB017320DDDBFB3C124BC76D4A /* Pods-smartconfigdemoTests-acknowledgements.markdown */,
+				D8C5FCCA99F316C838CA93C36BCBF49D /* Pods-smartconfigdemoTests-acknowledgements.plist */,
+				CF3D232D68E4B5E3F9D40427D8440525 /* Pods-smartconfigdemoTests-dummy.m */,
+				F308193608248095C5EEF2B532FB249B /* Pods-smartconfigdemoTests-Info.plist */,
+				5493EB465D01735003DF0904AC13BDB7 /* Pods-smartconfigdemoTests-umbrella.h */,
+				9C75CA9235DD016C8CE47C42B1FA0AD8 /* Pods-smartconfigdemoTests.debug.xcconfig */,
+				D730F63D7AF884AEE2ED6FABDE568955 /* Pods-smartconfigdemoTests.release.xcconfig */,
+			);
+			name = "Pods-smartconfigdemoTests";
+			path = "Target Support Files/Pods-smartconfigdemoTests";
+			sourceTree = "<group>";
+		};
+		B1ADAE1CB0EBF7973EE6EC92E8C6FDDC /* Pods-smartconfigdemo */ = {
+			isa = PBXGroup;
+			children = (
+				DB70A4A5CE97B9863B372BB0BA44A2EC /* Pods-smartconfigdemo.modulemap */,
+				171684CC479D4A1E4B937E0A5473D285 /* Pods-smartconfigdemo-acknowledgements.markdown */,
+				22A312150BDD3F1F1900D42BD806CC7B /* Pods-smartconfigdemo-acknowledgements.plist */,
+				DB6C2334DED16B3056961EA2DC4DB218 /* Pods-smartconfigdemo-dummy.m */,
+				58D10DB29C8D81371A22B9511797D5A8 /* Pods-smartconfigdemo-frameworks.sh */,
+				07AE930DB9DAAA74E0D0A894669A62AC /* Pods-smartconfigdemo-Info.plist */,
+				BEEDA62159B0B8748A9DB3A26894DB0A /* Pods-smartconfigdemo-umbrella.h */,
+				702EB93ABDC58E663278FE54CC2214A0 /* Pods-smartconfigdemo.debug.xcconfig */,
+				ED83DDABEBE1A00AD76138FDE8BF8DCF /* Pods-smartconfigdemo.release.xcconfig */,
+			);
+			name = "Pods-smartconfigdemo";
+			path = "Target Support Files/Pods-smartconfigdemo";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				347D432288F1C9DF9A45E57A521DD0BB /* Pods */,
+				056EA7ADC140313B501B35A3C84181FA /* Products */,
+				711BC790F86CAFEDBB3436B92CB6BE2D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E5EF9B23824EFBD697CBA417ABD290BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5002660A022C176F0A677BB0612EAA3B /* EspressifTouchSDK.modulemap */,
+				988F6BBD42936D704177988A7AB92814 /* EspressifTouchSDK.xcconfig */,
+				07533431E05B92321063E775E942B3B2 /* EspressifTouchSDK-dummy.m */,
+				AA1A7399F199F0A9BFA49C6F8F5CC44C /* EspressifTouchSDK-Info.plist */,
+				EF693ADC17949E3E24F6A2BB1EF445E4 /* EspressifTouchSDK-prefix.pch */,
+				663DEBA35206B3C06EAED797641012E6 /* EspressifTouchSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EspressifTouchSDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12AEB5DA1B720F90D0B3D4670CC03BB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837B055D58F94BE0C6907EE8C7398BF3 /* ESP_ByteUtil.h in Headers */,
+				8C54D0D8738CE646CB9EF3D891DAF117 /* ESP_CRC8.h in Headers */,
+				35AA8E144009786636FF3556AD42DF86 /* ESP_NetUtil.h in Headers */,
+				F29CC4C72EA9E6D596D7BBCE0AF32504 /* ESP_WifiUtil.h in Headers */,
+				7463D82A3B2B4336A4276DD4760E5E6C /* ESPAES.h in Headers */,
+				F85020FB8105FA0A750E5B773A8AB511 /* ESPDataCode.h in Headers */,
+				335A1130D303CECF9A436D9DDEF38BE3 /* ESPDatumCode.h in Headers */,
+				8BC7FD25392EC06659AB240D8A63E830 /* ESPGuideCode.h in Headers */,
+				4B4844AA3B66428A045C069439DFC746 /* EspressifTouchSDK-umbrella.h in Headers */,
+				7445D783847E03F78498966CD8C46985 /* ESPTools.h in Headers */,
+				84CCCB3D6BBF724C9093A37524D68B92 /* ESPTouchDelegate.h in Headers */,
+				79AF0F725B29044EC0AC31BE197584AE /* ESPTouchGenerator.h in Headers */,
+				F577560C2120E371926A703653ABC538 /* ESPTouchResult.h in Headers */,
+				38DDF5CE7539EDE5A98FD12102F92FAE /* ESPTouchTask.h in Headers */,
+				B4A0ABD9690A2705AF836C6BAEB394F2 /* ESPTouchTaskParameter.h in Headers */,
+				2623062DD718AE5F6CF3D2DF3CEA1778 /* ESPUDPSocketClient.h in Headers */,
+				16E3E2FB073F709244A59F61952B6C9C /* ESPUDPSocketServer.h in Headers */,
+				E795C202DD71625CF6FFED7C946A6AAA /* ESPVersionMacro.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74FBF4648AAFBD2ADBC33DB730A8B9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04751FE78EEB59E47DC3BEC013728CC7 /* Pods-smartconfigdemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD500D81D779600C34175CD513DF0414 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E512E0B1E460D857BFD99E8176FF6BD /* Pods-smartconfigdemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA87E87505B83C9829215253A98C0685 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D914A14AF4F0FF7A850B27E12698E44 /* Pods-smartconfigdemo-smartconfigdemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		31E67D3229E94988F145BC88B74B7DB8 /* EspressifTouchSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493658D1355F5C398E7F8B2CA27AD093 /* Build configuration list for PBXNativeTarget "EspressifTouchSDK" */;
+			buildPhases = (
+				12AEB5DA1B720F90D0B3D4670CC03BB6 /* Headers */,
+				3F3C19140EF4F6A16DAF0DF1125EB754 /* Sources */,
+				BAC76E5F5B9C599025B0449780E909A0 /* Frameworks */,
+				41ADEA45E3EBE895843727456BCFE733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EspressifTouchSDK;
+			productName = EspressifTouchSDK;
+			productReference = D0B62F17ABDC2D2C9189DC6B57DAFF7E /* EspressifTouchSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48A8234970A192964F877A0A9247BB84 /* Pods-smartconfigdemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3545312ED8378CDB9EAD6A55D92822F4 /* Build configuration list for PBXNativeTarget "Pods-smartconfigdemoTests" */;
+			buildPhases = (
+				BD500D81D779600C34175CD513DF0414 /* Headers */,
+				8E28A58ECB2F4707C30AB6AE7231DAFF /* Sources */,
+				82AF9C4C75C62E1051AE10FA9D878078 /* Frameworks */,
+				D8DCBE236E23A050936B65AF20225B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				582D0E5EB39C1AEC6D70B7C3D93CF4F0 /* PBXTargetDependency */,
+			);
+			name = "Pods-smartconfigdemoTests";
+			productName = "Pods-smartconfigdemoTests";
+			productReference = 164E578ACF4F43241DC2B54066D45A27 /* Pods_smartconfigdemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B218F3D195917E44808497F127354A59 /* Pods-smartconfigdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5302C7BC485D33DEDEB9F275EB18FFA3 /* Build configuration list for PBXNativeTarget "Pods-smartconfigdemo" */;
+			buildPhases = (
+				B74FBF4648AAFBD2ADBC33DB730A8B9B /* Headers */,
+				AD599B0AF5CFB6587DBDB0D96FD28918 /* Sources */,
+				020845BC4CAF88566FD52582E5F8968E /* Frameworks */,
+				A9856778AFDC6C5CC66C1BEF65CBAFC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				141E091E6DFBCA087A1192C9D22AA3A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-smartconfigdemo";
+			productName = "Pods-smartconfigdemo";
+			productReference = 121C8C74250F3DC3BB34F8AD3053AE86 /* Pods_smartconfigdemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DADE9705622D13C58BFD1034B9337D87 /* Pods-smartconfigdemo-smartconfigdemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F3DE701F39E8FB4A9DB13010D4E68E /* Build configuration list for PBXNativeTarget "Pods-smartconfigdemo-smartconfigdemoUITests" */;
+			buildPhases = (
+				DA87E87505B83C9829215253A98C0685 /* Headers */,
+				360AA64767239C42386F9DD0525B8196 /* Sources */,
+				B4D176CD7250AA57E9BD47F8BE545263 /* Frameworks */,
+				70FEB27D8A4BCF364186B0C285FDE78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA5DF4584CE7CC0C2863A14590BFE22 /* PBXTargetDependency */,
+			);
+			name = "Pods-smartconfigdemo-smartconfigdemoUITests";
+			productName = "Pods-smartconfigdemo-smartconfigdemoUITests";
+			productReference = 3EDD6ABACFA9DF548A0D2D7925975157 /* Pods_smartconfigdemo_smartconfigdemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 056EA7ADC140313B501B35A3C84181FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31E67D3229E94988F145BC88B74B7DB8 /* EspressifTouchSDK */,
+				B218F3D195917E44808497F127354A59 /* Pods-smartconfigdemo */,
+				DADE9705622D13C58BFD1034B9337D87 /* Pods-smartconfigdemo-smartconfigdemoUITests */,
+				48A8234970A192964F877A0A9247BB84 /* Pods-smartconfigdemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41ADEA45E3EBE895843727456BCFE733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70FEB27D8A4BCF364186B0C285FDE78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9856778AFDC6C5CC66C1BEF65CBAFC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DCBE236E23A050936B65AF20225B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		360AA64767239C42386F9DD0525B8196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2148EE8011EB9B1C25DF53220894DB /* Pods-smartconfigdemo-smartconfigdemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3C19140EF4F6A16DAF0DF1125EB754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BC3814166BD8CD6230097BBD1E679D /* ESP_ByteUtil.m in Sources */,
+				3CC011238780E570FC27D1C8BCF7247C /* ESP_CRC8.m in Sources */,
+				BE12EFEE078E0CC189BA45F0ADF8C722 /* ESP_NetUtil.m in Sources */,
+				0386C3ACA9007CA82E7B4AF668E168C6 /* ESP_WifiUtil.m in Sources */,
+				E55576125000B2817B0438ECD2BBDAAE /* ESPAES.m in Sources */,
+				9B07E1CDC276A86BE9715F0B4106C34D /* ESPDataCode.m in Sources */,
+				9A3957CD6C22ABFB8F963235F3C1F987 /* ESPDatumCode.m in Sources */,
+				6F27C86A3931EA5BE98341832D55AF39 /* ESPGuideCode.m in Sources */,
+				41540F3F5DE8DFE5C8BCE46B09E5E440 /* EspressifTouchSDK-dummy.m in Sources */,
+				2790E95F7B80854081B3D0080076A053 /* ESPTools.m in Sources */,
+				68560403FB2A11B22BA7BB6A8845B7C0 /* ESPTouchGenerator.m in Sources */,
+				6D8220F079D51BB7ACDB655114023CEF /* ESPTouchResult.m in Sources */,
+				BD654098548A76A6D5A016D8CB3944C4 /* ESPTouchTask.m in Sources */,
+				80F2972A61C63E79DA2CDDCE860EE974 /* ESPTouchTaskParameter.m in Sources */,
+				CA64EB045141F4042F4E6E714CD9E5A0 /* ESPUDPSocketClient.m in Sources */,
+				E23B0CA02E35FEF61D89E800622EDCEE /* ESPUDPSocketServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E28A58ECB2F4707C30AB6AE7231DAFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1473D8DF876DEA88D5D02A5199C15B75 /* Pods-smartconfigdemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD599B0AF5CFB6587DBDB0D96FD28918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B58A64DE714737D5E6775BF60F2BD2 /* Pods-smartconfigdemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		141E091E6DFBCA087A1192C9D22AA3A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EspressifTouchSDK;
+			target = 31E67D3229E94988F145BC88B74B7DB8 /* EspressifTouchSDK */;
+			targetProxy = 830CA035B5C67666F97F843C1DFBC1FD /* PBXContainerItemProxy */;
+		};
+		582D0E5EB39C1AEC6D70B7C3D93CF4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-smartconfigdemo";
+			target = B218F3D195917E44808497F127354A59 /* Pods-smartconfigdemo */;
+			targetProxy = 1B4D16A2D795DDBD49137700151F3267 /* PBXContainerItemProxy */;
+		};
+		8DA5DF4584CE7CC0C2863A14590BFE22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EspressifTouchSDK;
+			target = 31E67D3229E94988F145BC88B74B7DB8 /* EspressifTouchSDK */;
+			targetProxy = 1EFFC9CDF449067DDF6078762EFACBAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		033DD85C14118589C18C0725927F43C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED83DDABEBE1A00AD76138FDE8BF8DCF /* Pods-smartconfigdemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smartconfigdemo/Pods-smartconfigdemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smartconfigdemo/Pods-smartconfigdemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0CEB686B8A71BB8A685D00F83015F040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988F6BBD42936D704177988A7AB92814 /* EspressifTouchSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EspressifTouchSDK/EspressifTouchSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EspressifTouchSDK/EspressifTouchSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EspressifTouchSDK/EspressifTouchSDK.modulemap";
+				PRODUCT_MODULE_NAME = EspressifTouchSDK;
+				PRODUCT_NAME = EspressifTouchSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F5CE9157A6944C572608740FA41A6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6D45F7FFC7AE788397A0ACDE09FDD672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B98542A1CBC85C81D5C7288798D20F9 /* Pods-smartconfigdemo-smartconfigdemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smartconfigdemo-smartconfigdemoUITests/Pods-smartconfigdemo-smartconfigdemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smartconfigdemo-smartconfigdemoUITests/Pods-smartconfigdemo-smartconfigdemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7297D5BC97D2018F31501C68520B846C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988F6BBD42936D704177988A7AB92814 /* EspressifTouchSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EspressifTouchSDK/EspressifTouchSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EspressifTouchSDK/EspressifTouchSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EspressifTouchSDK/EspressifTouchSDK.modulemap";
+				PRODUCT_MODULE_NAME = EspressifTouchSDK;
+				PRODUCT_NAME = EspressifTouchSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E4BA4179119FBB569DD790390C55D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECD6B2E256F5BD659E43D472FC2DC25 /* Pods-smartconfigdemo-smartconfigdemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smartconfigdemo-smartconfigdemoUITests/Pods-smartconfigdemo-smartconfigdemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smartconfigdemo-smartconfigdemoUITests/Pods-smartconfigdemo-smartconfigdemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9ECA588617B29FA3A931420D73226F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C75CA9235DD016C8CE47C42B1FA0AD8 /* Pods-smartconfigdemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smartconfigdemoTests/Pods-smartconfigdemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smartconfigdemoTests/Pods-smartconfigdemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B102853BB3392A16E68667C38114BC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F619697D9EC30F304A293293A0CCB0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702EB93ABDC58E663278FE54CC2214A0 /* Pods-smartconfigdemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smartconfigdemo/Pods-smartconfigdemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smartconfigdemo/Pods-smartconfigdemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7245AAAB843A1EDCBD13282EBE28954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D730F63D7AF884AEE2ED6FABDE568955 /* Pods-smartconfigdemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smartconfigdemoTests/Pods-smartconfigdemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smartconfigdemoTests/Pods-smartconfigdemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3545312ED8378CDB9EAD6A55D92822F4 /* Build configuration list for PBXNativeTarget "Pods-smartconfigdemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECA588617B29FA3A931420D73226F3A /* Debug */,
+				F7245AAAB843A1EDCBD13282EBE28954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5CE9157A6944C572608740FA41A6A5 /* Debug */,
+				B102853BB3392A16E68667C38114BC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493658D1355F5C398E7F8B2CA27AD093 /* Build configuration list for PBXNativeTarget "EspressifTouchSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEB686B8A71BB8A685D00F83015F040 /* Debug */,
+				7297D5BC97D2018F31501C68520B846C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5302C7BC485D33DEDEB9F275EB18FFA3 /* Build configuration list for PBXNativeTarget "Pods-smartconfigdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F619697D9EC30F304A293293A0CCB0F0 /* Debug */,
+				033DD85C14118589C18C0725927F43C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F3DE701F39E8FB4A9DB13010D4E68E /* Build configuration list for PBXNativeTarget "Pods-smartconfigdemo-smartconfigdemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D45F7FFC7AE788397A0ACDE09FDD672 /* Debug */,
+				7E4BA4179119FBB569DD790390C55D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

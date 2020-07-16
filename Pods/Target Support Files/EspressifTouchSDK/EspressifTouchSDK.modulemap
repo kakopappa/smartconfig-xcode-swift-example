@@ -1,0 +1,6 @@
+framework module EspressifTouchSDK {
+  umbrella header "EspressifTouchSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
